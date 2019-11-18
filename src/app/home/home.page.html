@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Camara
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-button (click)="takePicture()">Tomar Foto</ion-button>
+  <img *ngIf="image" [src]="image" alt="image"> 
+</ion-content>
